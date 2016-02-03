@@ -1,0 +1,22 @@
+<xs:schema elementFormDefault="qualified"
+		targetNamespace="http://github.com/xxbeanxx/jax-ws-webservice"
+		xmlns:tns="http://github.com/xxbeanxx/jax-ws-webservice"
+		xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="TestRequest">
+    	<xs:complexType>
+    		<xs:sequence>
+    			<xs:element name="Request" type="xs:string"/>
+    		</xs:sequence>
+    	</xs:complexType>
+    </xs:element>
+    
+    <xs:element name="TestResponse">
+    	<xs:complexType>
+    		<xs:sequence>
+    			<xs:element name="Response" type="xs:string"/>
+    		</xs:sequence>
+    	</xs:complexType>
+    </xs:element>
+    
+</xs:schema> 
